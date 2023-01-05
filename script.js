@@ -30,3 +30,18 @@ const quarterOf = (month) => {
 function isTriangular(t) {
     return (Math.sqrt(8 * t + 1) % 1 === 0);
   }
+
+//8 Training JS #5: Basic data types--Object
+function animal(obj){
+    let animal= {name:"dog",legs: 4, color:"white"};
+    let result ='This ' + obj.color + ' ' + obj.name + ' has ' + obj.legs + ' legs' + '.';
+    return result;
+  }
+
+function trueOrFalse(val){
+    return val ? 'true' : 'false';
+  }
+
+//8
+
+
