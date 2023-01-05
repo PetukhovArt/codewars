@@ -25,3 +25,8 @@ const quarterOf = (month) => {
     if (month <=  9) return 3
     return 4
 };
+
+//7 kyu Beginner Series #5 Triangular Numbers
+function isTriangular(t) {
+    return (Math.sqrt(8 * t + 1) % 1 === 0);
+  }
