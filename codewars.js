@@ -76,7 +76,7 @@ function padIt(str,n){
 
 
 
-//Training JS #10: loop statement --for
+//8 kyu Training JS #10: loop statement --for
 
 function pickIt(arr){
   let odd=[],even=[];
