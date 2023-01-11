@@ -1,9 +1,4 @@
 
-//8 kyu MakeUpperCase
-function makeUpperCase(str) {
-    return str.toUpperCase();
-};
-
 //8 kyu Area or Perimeter
 const areaOrPerimeter = function(l , w) {
     if (l == w) {
