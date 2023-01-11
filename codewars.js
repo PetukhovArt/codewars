@@ -1,8 +1,3 @@
-//codeWars results
-//Convert boolean values to strings 'Yes' or 'No'.
-function boolToWord( bool ){
-    return bool ? 'Yes':'No';
-};
 
 //8 kyu MakeUpperCase
 function makeUpperCase(str) {
@@ -146,3 +141,5 @@ function colorOf(r,g,b){
 }
 //8 kyu Training JS #15: Methods of Number object--toFixed(), toExponential() and toPrecision()
 const howManySmaller = (arr,n) => arr.filter(element => element.toFixed(2) <n).length
+
+//8 kyu Training JS #16: Methods of String object--slice(), substring() and substr()
