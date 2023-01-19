@@ -1,5 +1,5 @@
-let arr=["abcde"];
-let result = arr.map((i)=> {
-    Math.ceil(arr[i].length / 2);
-});
-console.log(result);
+let arr=['asd', 'abv', 'gande'];
+let word= arr.pop().slice(-1);
+console.log(word);
+
+
