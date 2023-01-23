@@ -1,5 +1,5 @@
+let volume=50000
+let n=50
+let b = Math.cbrt(volume/n);
 
-let b=a.toString().split(".")
-let result = (b[0].length < b[1].length) ? Math.ceil(a):
-(b[0].length > b[1].length) ? Math.floor(a):
-Math.round(a);
+console.log(b)
