@@ -9,17 +9,13 @@
 
 <body>
     <script>
-        function solution(str) {
-            debugger
-            let result = str.split('').reverse().join('')
-            console.log(result);
+        function solution(arr) {
+            // debugger
+            let [a,b] = arr.sort((a,b)=>a-b)
+            console.log(a+b);
         }
-        solution('abc');
+        solution([15, 28, 4, 2, 43]);
     </script>
 </body>
 
 </html>
-<!-- //Primitives:
-//string, number, boolean, null, undefined, Nan, Infinity, Symbol, BigInt
-// Objects:
-// array, function , objects -->
