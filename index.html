@@ -9,21 +9,17 @@
 </head>
 
 <body>
-    <script>
-        function solution(str) {
-            // debugger
-            let removed=str
-                .toLowerCase()
-                .split('')
-                .filter((val,index,src)=>{
-                    return src.indexOf(val)==index
-                });
-            let result = removed.length < str.length
-            console.log(!result)
-        }
+<script>
+    function solution(arr) {
+        // debugger
+        let b = arr.filter(el =>  el >= arr[0]) // > x length check
+        // if (arr.length === 0) return true
+        // if (arr.length >= 1) return b !==0 ; else true
+        console.log(b)
+    }
+    solution([5]);
 
-        solution('isogram');
-    </script>
+</script>
 </body>
 
 </html>
