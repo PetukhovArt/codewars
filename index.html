@@ -10,14 +10,18 @@
 
 <body>
 <script>
-    function solution(arr) {
-        // debugger
-        let b = arr.filter(el =>  el >= arr[0]) // > x length check
-        // if (arr.length === 0) return true
-        // if (arr.length >= 1) return b !==0 ; else true
-        console.log(b)
-    }
-    solution([5]);
+    function solution(iterable) {
+
+        return  (typeof iterable == "object") ?
+            iterable.filter((v,i,a) => a[i] !== a[i+1])
+            : iterable.split("").filter((v,i,a) =>  {
+                console.log(a[i], a[i+1], a[i] !==a[i+1] ? `'Letter : '${a[i]} ' - TRUTH'`: '')
+                return a[i] !== a[i+1]
+            })
+        }
+
+    console.log(solution('AAAABBBCCDAABBB'))
+
 
 </script>
 </body>
