@@ -9,20 +9,7 @@
 </head>
 
 <body>
-<script>
-    function solution(iterable) {
-
-        return  (typeof iterable == "object") ?
-            iterable.filter((v,i,a) => a[i] !== a[i+1])
-            : iterable.split("").filter((v,i,a) =>  {
-                console.log(a[i], a[i+1], a[i] !==a[i+1] ? `'Letter : '${a[i]} ' - TRUTH'`: '')
-                return a[i] !== a[i+1]
-            })
-        }
-
-    console.log(solution('AAAABBBCCDAABBB'))
-
-
+<script src="New.js">
 </script>
 </body>
 
