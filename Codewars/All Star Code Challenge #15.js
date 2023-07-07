@@ -13,4 +13,4 @@ const rotate=(str)=> {
 //   return result
 // }
 
-console.log(rotate('Hello')); // elloH , lloHe
+// https://www.codewars.com/kata/586560a639c5ab3a260000f3/train/javascript
