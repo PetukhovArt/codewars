@@ -1,1 +1,1 @@
-# Codewars && FreeCodeCamp solutions!
+# Codewars kata solutions
