@@ -1,9 +1,10 @@
-
-const rotate=(str)=> {
-  let arr=[]
-  Array.from(str).map((el,i)=> arr.push(str.slice(1+i) + str.slice(0,1+i)))
-  return arr
-}
+const rotate = (str) => {
+  let arr = [];
+  Array.from(str).map((el, i) =>
+    arr.push(str.slice(1 + i) + str.slice(0, 1 + i))
+  );
+  return arr;
+};
 
 // function rotate(str){
 //   let result =[]

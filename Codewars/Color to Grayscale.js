@@ -1,5 +1,4 @@
-function rgbToGrayscale(rgb){
-
+function rgbToGrayscale(rgb) {
   let r = parseInt(rgb.slice(1, 3), 16);
   let g = parseInt(rgb.slice(3, 5), 16);
   let b = parseInt(rgb.slice(5, 7), 16);
